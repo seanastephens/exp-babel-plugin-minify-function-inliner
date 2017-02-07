@@ -2,12 +2,23 @@
 
 Input:
 ```javascript
-flowRight(f, g)
+function f() {
+  return 42;
+}
+
+console.log(f());
 ```
 
 Output:
 ```javascript
-x => f(g(x))
+let _temp;
+
+_temp2: {
+  _temp = 42;
+  break _temp2;
+}
+
+console.log(_temp);
 ```
 
 # To run:
